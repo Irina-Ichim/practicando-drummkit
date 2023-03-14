@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background: url('./img/luna.jpg') bottom center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hkey {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+
+}
+.keys {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 1em;
+    min-height: 100vh;
+    color: white;
+    align-items: center;
+
+ }
+
+.key {
+    border: .4rem solid red;
+    border-radius: .5rem;
+    margin: .1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.7s;
+    
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color:yellowgreen;
+    box-shadow: 0 0 1rem yellowgreen;
+
+} 
+
+kbd {
+    display: block;
+    font-size: 3rem;
+    width: auto;
+
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:yellowgreen;
+}
