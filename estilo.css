@@ -8,7 +8,6 @@ body {
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow: hidden;
-    color: #fff;
 }
 
 .hkey {
@@ -21,8 +20,8 @@ body {
     text-align: center;
     font-size: 40px;
     margin: 0;
-    padding: 0;
-    margin-top: 60px;
+    padding: 30px;
+    /*margin-top: 60px;*/
 
 }
 h3{
@@ -30,7 +29,7 @@ h3{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 60px;
-    color: #9400d3;
+    color:#ffd700;
     
     
 }
@@ -39,10 +38,12 @@ h3{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 1em;
+   /* margin: 1em;*/
     min-height: 100vh;
-    color: #9400d3;
+    color:white;
     align-items: center;
+   gap: 28px;
+   
 
  }
 
@@ -72,6 +73,6 @@ kbd {
 
 .sound {
     font-size: 1.2rem;
-   /* text-transform: uppercase;La uso si quiero cambiar de minuscula a mayuscula*/
    color: #00ff00;
 }
+

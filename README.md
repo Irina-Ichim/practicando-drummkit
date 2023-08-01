@@ -8,7 +8,7 @@ Este proyecto es una práctica sencilla desarrollada con HTML, CSS y JavaScript 
 
 ## Captura de Pantalla
 
-![Captura de Pantalla del Drum Kit](/img/Captura%20de%20pantalla%20(109).png)
+![Captura de Pantalla del Drum Kit](/img/Captura%20de%20pantalla%20(110).png)
 
 ## Demo
 
@@ -40,7 +40,7 @@ Siéntete libre de contribuir al proyecto mediante la apertura de pull requests.
 
 ## Autor
 
-- Tu nombre o nombre de usuario
+- Irina Ichim
 - [Enlace a tu perfil en GitHub](https://github.com/Irina-Ichim/practicando-drummkit)
 
 ## Licencia
