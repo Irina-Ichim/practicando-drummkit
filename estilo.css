@@ -7,6 +7,8 @@ body {
    background: url('./img/luna.jpg') bottom center;
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    color: #fff;
 }
 
 .hkey {
@@ -15,13 +17,22 @@ body {
 }
 
 .header {
-    color: yellow;
+    color: #ffd700;
     text-align: center;
     font-size: 40px;
     margin: 0;
     padding: 0;
     margin-top: 60px;
 
+}
+h3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+    color: #9400d3;
+    
+    
 }
 .keys {
     flex-grow: 1;
@@ -30,13 +41,13 @@ body {
     flex-wrap: wrap;
     margin-right: 1em;
     min-height: 100vh;
-    color: white;
+    color: #9400d3;
     align-items: center;
 
  }
 
 .key {
-    border: .4rem solid red;
+    border: .4rem solid #ffd700;
     border-radius: .5rem;
     margin: .1rem;
     font-size: 1.5rem;
@@ -47,8 +58,8 @@ body {
 
 .playing {
     transform: scale(1.1);
-    border-color:yellowgreen;
-    box-shadow: 0 0 1rem yellowgreen;
+    border-color: #9400d3; 
+    box-shadow: 0 0 1rem #9400d3; 
 
 } 
 
@@ -61,6 +72,6 @@ kbd {
 
 .sound {
     font-size: 1.2rem;
-    text-transform: uppercase;
-    color:yellowgreen;
+   /* text-transform: uppercase;La uso si quiero cambiar de minuscula a mayuscula*/
+   color: #00ff00;
 }
